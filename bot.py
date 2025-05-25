@@ -12,9 +12,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-
-CHAT_ID_NASTYA = int(os.getenv("NASTYA_CHAT_ID"))
-bot = Bot(token=os.getenv("BOT_TOKEN"))
+TOKEN = "7224594977:AAFVX-kSnfaH26RsONQrsNAbcxtEIEjNEKQ"
+CHAT_ID_NASTYA = 813196147
+bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
 morning_messages = [
